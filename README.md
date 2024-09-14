@@ -41,4 +41,4 @@ By following these steps and considerations, organizations can effectively resto
 
 <h2>Summary</h2>
 
-In this excerise, I demonstrated researching vital information as a Cybersecurity Analyst. This example displayed how important it is to have a plan and the necessity to review and refine it.
+In this excerise, I demonstrated researching vital information as a Cybersecurity Analyst. This example displayed how important it is to have a incident response plan and the necessity to review and refine it.

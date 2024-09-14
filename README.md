@@ -39,7 +39,6 @@ The recovery process within the NIST Incident Response Lifecycle involves restor
 
 By following these steps and considerations, organizations can effectively restore their systems and data after an incident and minimize disruption to their operations.
 
-
 <h2>Summary</h2>
 
-In this excerise, I demonstrated the use of hashing and investigating suspicious files as a Cybersecurity Analyst. This example displayed how effective crowdsourcing is by the VirusTotal results.
+In this excerise, I demonstrated researching vital information as a Cybersecurity Analyst. This example displayed how important it is to have a plan and the necessity to review and refine it.

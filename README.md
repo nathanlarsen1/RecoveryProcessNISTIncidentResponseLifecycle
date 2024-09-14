@@ -1,39 +1,44 @@
-<h1>Investigate Suspicious File Hash using VirusTotal Website</h1>
+<h1>The Recovery Process within the NIST Incident Response Lifecycle</h1>
 
 
 <h2>Project description</h2>
-For this project, I acted as a Cybersecurity Analyst on a security team for an organization. One of my job roles involved constructing a .<br/><br/>
+For this project, I acted as a Cybersecurity Analyst on a security team for an organization. I was tasked with a project by the CISO (Chief Information Security Officer) to research the recovery process of the NIST (National Institute of Standards and Technology) Incident Response Lifecycle.<br/><br/>
 
-There was a file discovered that was attached to an email an employee received in their inbox. Shortly after the reception of the email, an alert was sent to the SOC (System Operations Center) by the IDS (Intrusion Detection System) stating that multiple unauthorized executable files were detected on the employee's computer.<br/><br/>
+<h2>Recovery Process</h2>
 
-<h2>Creating SHA256 Hash of File</h2>
-Transferred a copy of the file securely to an isolated Linux virtual machine. Ran the sha256sum command on the file. Noted the SHA256 file hash.<br/><br/>
+The recovery process within the NIST Incident Response Lifecycle involves restoring systems and data to their original state or a known good state after an incident. This phase typically includes the following steps:
+1.	<b>Data Restoration:</b>
+     - <b>Backup recovery:</b> Restore data from backups that were created before the incident.
+     - <b>Data cleansing:</b> If necessary, clean the restored data to remove any malicious components or corruption.
+     - <b>Data validation:</b> Verify the integrity and accuracy of the restored data.
+2.	<b>System Restoration:</b>
+     - <b>System rebuild:</b> Reinstall operating systems, applications, and configurations on affected systems.
+     - <b>Configuration restoration:</b> Restore system configurations from backups or templates.
+     - <b>Patching and updates:</b> Apply necessary security patches and updates to ensure the restored systems are protected.
+3.	<b>Network Restoration:</b>
+     - <b>Network configuration:</b> Reconfigure network devices and settings to their original state.
+     - <b>Connectivity testing:</b> Verify network connectivity and communication between systems.
+4.	<b>Application Restoration:</b>
+     - <b>Application deployment:</b> Redeploy critical applications and services.
+     - <b>Data integration:</b> Integrate restored data with applications as needed.
+5.	<b>Testing and Validation:</b>
+     - <b>Functional testing:</b> Test the restored systems and applications to ensure they are functioning correctly.
+     - <b>Security testing:</b> Conduct security testing to identify and address any vulnerabilities.
+6.	<b>Continuity of Operations:</b>
+     - <b>Business continuity plan activation:</b> If necessary, activate the business continuity plan to ensure critical operations can continue.
+     - <b>Review and adjustment:</b> Review and adjust the business continuity plan based on the incident response experience.
+7.	<b>Documentation and Lessons Learned:</b>
+     - <b>Incident report:</b> Document the incident response process, including the recovery steps taken.
+     - <b>Lessons learned:</b> Identify areas for improvement and update incident response plans accordingly.
 
-SHA256 file hash: 54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b</br></br>
-                                                
-<p align="center">
-<img src="https://i.imgur.com/o1Djike.png" height="80%" width="80%" alt="Creating SHA256 Hash of File"/>
-<br />
-<br />
-</p>
+<b>Key considerations:</b>
+   - <b>Backup strategy:</b> Ensure that backups are regular, complete, and stored securely.
+   - <b>Testing and validation:</b> Thorough testing is essential to verify the effectiveness of the recovery process.
+   - <b>Business continuity plan:</b> A well-developed and regularly tested business continuity plan is crucial for minimizing the impact of incidents.
+   - <b>Lessons learned:</b> Continuously review and update incident response plans based on lessons learned from past incidents.
 
-<h2>Used VirusTotal Website to Investigate File Hash</h2>
-Pasted the hash value in the search box of the VirusTotal website.</br></br>
-                                                
-<p align="center">
-<img src="https://i.imgur.com/Fc97h0B.png" height="80%" width="80%" alt="Used VirusTotal Website to Investigate File Hash"/>
-<br />
-<br />
-</p>
+By following these steps and considerations, organizations can effectively restore their systems and data after an incident and minimize disruption to their operations.
 
-<h2>VirusTotal Website Results</h2>
-The following image is the results I retrieved from the VirusTotal website from the hash. By these results, it was found that 61/73 security vendors flagged this file as malicious. The popular threat label is "trojan.flagpro/fragtor" which means it is a trojan from the fragtor/flagpro family.</br></br>
-                                                
-<p align="center">
-<img src="https://i.imgur.com/E4OBbTc.png" height="80%" width="80%" alt="VirusTotal Website Results"/>
-<br />
-<br />
-</p>
 
 <h2>Summary</h2>
 
